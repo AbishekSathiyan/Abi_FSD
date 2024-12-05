@@ -1,4 +1,118 @@
-h1{
-    background-color: cadetblue;
-    color: blue;
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif; /* Font from Google Fonts */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
 }
+
+/* General Heading Styling */
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px;
+    padding-left: 20px;
+    color: #333;
+}
+
+/* Specific Styling for h1 */
+h1 {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Welcome and Thanks Styling */
+.welcome {
+    background-color: white;
+    color: rebeccapurple;
+    text-align: center;
+    padding: 15px;
+}
+
+.thanks {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Styling for the "Contact" Links */
+a:hover {
+    color: darkblue;
+    transition: color 0.3s ease;
+}
+
+/* Styling for Divs */
+.di {
+    background-color: cornflowerblue;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15%;
+    color: white;
+    text-align: center;
+    text-decoration:line-through;
+    margin: 20px 0;
+}
+
+
+
+/* Unordered List Styling */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: square;
+    padding: 5px;
+}
+
+/* Ordered List Styling */
+ol {
+    padding-left: 30px;
+}
+
+#box4 {
+    min-height: 100px; /* Ensures the content fits inside the box */
+    padding: 20px; /* Adds space inside the box around the content */
+    text-align: center; /* Centers the content */
+    background-color: #f4f4f4; /* Optional: adds a background color */
+    border: 10px solid #ddd; /* Optional: adds a border */
+}
+
+/* Styling for Footer 
+footer {
+    text-align: center;
+    background-color: #333;
+    color: rgb(80, 10, 10);
+    padding: 50px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Styling for Exercise 1 
+#1 {
+    color: aqua;
+    background-color: yellow;
+    font-style: italic;
+    padding: 10px;
+}
+
+
+.divis1{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+*/

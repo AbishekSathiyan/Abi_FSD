@@ -1,93 +1,128 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=3.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1st Project Portfolio</title>
+    <!-- Link to external CSS (change path as needed) -->
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* General Body and Font Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 20px;
+            padding-left: 20px;
+        }
+
+        /* Styling for the Welcome div */
+        .di {
+            background-color: cornflowerblue;
+            width: 250px;
+            height: 50px;
+            padding: 10px;
+            border-radius: 15%;
+            text-align: center;
+        }
+
+        /* Link Styling */
+        a {
+            text-decoration: none;
+            color: royalblue;
+        }
+
+        /* Specific Heading Style */
+        h1 {
+            background-color: cadetblue;
+            color: blue;
+        }
+
+        /* Welcome and Exit Classes */
+        .welcome {
+            background-color: white;
+            color: rebeccapurple;
+        }
+
+        .thanks {
+            background-color: white;
+            color: blue;
+        }
+
+        /* Exercise Styling */
+        #1 {
+            color: aqua;
+            background-color: yellow;
+            font-style: italic;
+        }
+
+        #ex {
+            text-align: center;
+        }
+
+        div {
+            border: solid purple 10px;
+            padding: 20px;
+            border-radius: 13px;
+            margin-bottom: 20px;
+        }
+
+        /* Exercise 2 */
+        h1 {
+            background-color: black;
+            color: white;
+            margin: 10px;
+            padding-left: 20px;
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+        }
+
+        /* Lists Styling */
+        ul {
+            padding-left: 20px;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        /* Image Styling */
+        img {
+            margin: 10px;
+            border-radius: 5px;
+        }
+        /*Style for Exercise 3 Box*/
+        .divis{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            border-bottom: solid red 10px;
+            border-left: solid purple 10px;
+            border-top: solid yellow 10px;
+            border-right: dotted red 10px ;
+        }
+    </style>
 </head>
 
-<!--
 <body>
-    <h1>
-        <center>Day 1 in Error Makes Clever</center>
-    </h1>
-
-    <h1>Sathiyan</h1>
-    <h2>Kalaivani S</h2>
-    <h3>Abishek S</h3>
-    <h4>Dinesh Prabhu S</h4>
-    <h5>Rufa</h5>
-    <h6>Vicky</h6>
-
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, est
-        doloribus blanditiis labore placeat, consequatur eaque delectus molestias
-        nulla minus quisquam voluptatem magnam nesciunt, recusandae optio
-        molestiae expedita odit nam atque numquam modi possimus nisi. Praesentium
-        error non voluptates commodi quidem eum ipsum odit. Labore tempora amet
-        perferendis iusto debitis voluptatum ipsa iure possimus ratione dolor, eos
-        corrupti illo alias veritatis quam mollitia vero eius, ipsam harum quod
-        quasi molestias nesciunt. Pariatur enim rem laboriosam, hic error
-        consectetur illo, blanditiis, omnis eius inventore asperiores porro. Quis
-        doloremque illo optio, sapiente et perferendis rerum labore odio minus in
-        iure aperiam pariatur.
-    </p>
-
-    <a href="https://www.google.com/" target="_blank">Google</a>
-    <a href="https://www.linkedin.com/" target="_blank">Linked</a>
-    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-    <h2>Image Tag</h2>
-
-    <img src="https://picsum.photos/200" alt="Loading" height="175" width="200" />
-    <img src="https://picsum.photos/100" alt="Loading" height="175" width="200" />
-    
-    List 
-
-    <h1>Un-Ordered List Lower Alphabet</h1>
-    <ul style="list-style-type: lower-alpha">
-        List 
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-    </ul>
-    <h1>Un-Ordered List Lower Roman</h1>
-    <ul style="list-style-type: lower-roman">
-         List
-        <li>Four</li>
-        <li>Five</li>
-        <li>Six</li>
-    </ul>
-
-    <h1>Un-Ordered List Square Symbol</h1>
-    <ul style="list-style-type: square">
-        <li>Seven</li>
-    </ul>
-
-    <h1>Un-Ordered List Circle Symbol</h1>
-    <ul style="list-style-type:circle">
-        <li>Seven</li>
-    </ul>
-
-        <h1>Ordered List Starts from 22</h1>
-    <ol start="22" aria-sort="ascending" style="font-family: sans-serif">
-       
-        <li>Abishek</li>
-        <li>Sandy</li>
-    </ol>
-    
-<h1>Learn IFrame</h1>
-
-    <iframe src="https://www.moviesda.dad/tamilrockers/" frameborder="0"></iframe>
-</body>-->
-
-<body>
+    <!-- Content -->
     <h1>Abishek Sathiyan</h1>
     <p>FullStack Web Developer</p>
     <a href="contact.html" target="_blank">Contact</a>
+
     <h2>About Me</h2>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi impedit accusamus...
-    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi impedit accusamus...</p>
 
     <h2>My Interests</h2>
     <ul>
@@ -100,28 +135,84 @@
     <ol>
         <li>
             Employee Management System
-            <p>
-                I completed the Employee Management System using VB.Net and Microsoft Access Database. Lorem ipsum...
-            </p>
+            <p>I completed the Employee Management System using VB.Net and Microsoft Access Database. Lorem ipsum...</p>
         </li>
         <li>
             White Blood Cells Classification using Python
-            <p>
-                I completed White Blood Cells Classification using Machine Learning. Lorem ipsum...
-            </p>
+            <p>I completed White Blood Cells Classification using Machine Learning. Lorem ipsum...</p>
         </li>
     </ol>
 
-    <audio controls aut>
-        <source src="D:\Error Makes Clever(FullStack)\Abi_FSD\Media\Thaarame Thaarame.mp3"
-        type="audio/mp3">Playing...</audio>
-
+    <audio controls autoplay>
+        <source src="D:\Error Makes Clever(FullStack)\Abi_FSD\Media\Thaarame Thaarame.mp3" type="audio/mp3">Playing...</audio>
 
     <a href="https://www.linkedin.com/in/abishek-s-54a237240" target="_blank">Abishek LinkedIn</a>
     <a href="https://www.instagram.com/entabilogist_abi/" target="_blank">Abishek Instagram</a>
 
-    <iframe src="https://en.wikipedia.org/wiki/TamilRockers" frameborder="0" title="Wikipedia TamilRockers Article"></iframe>
+    <h1>Image Tag</h1>
+    <img src="https://picsum.photos/200" alt="Random Image 1" height="175" width="200" />
+    <img src="https://picsum.photos/100" alt="Random Image 2" height="175" width="200" />
 
-    <p>&copy; Abishek Sathiyan</p>
+    <h1>Un-Ordered List (Lower Alphabet)</h1>
+    <ul style="list-style-type: lower-alpha">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <h1>Un-Ordered List (Lower Roman)</h1>
+    <ul style="list-style-type: lower-roman">
+        <li>Four</li>
+        <li>Five</li>
+        <li>Six</li>
+    </ul>
+
+    <h1>Un-Ordered List (Square Symbol)</h1>
+    <ul style="list-style-type: square">
+        <li>Seven</li>
+    </ul>
+
+    <h1>Un-Ordered List (Circle Symbol)</h1>
+    <ul style="list-style-type:circle">
+        <li>Seven</li>
+    </ul>
+
+    <h1>Ordered List (Starts from 22)</h1>
+    <ol start="22" aria-sort="ascending" style="font-family: sans-serif">
+        <li>Abishek</li>
+        <li>Sandy</li>
+    </ol>
+
+    <h1>Learn IFrame</h1>
+    <iframe src="https://en.wikipedia.org/wiki/TamilRockers" frameborder="0" title="Wikipedia TamilRockers Article" width="100%" height="300px"></iframe>
+
+    <div class="di">Welcome</div>
+    <h2>$1000</h2>
+    <h3>$500</h3>
+
+    <h1 class="welcome">Welcome</h1>
+    <h1 class="thanks">Exit</h1>
+
+    <h2 id="1">Hello Welcome to Our WebPage</h2>
+
+    <h2 id="ex">This is the Exercise Heading</h2>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos repellendus...</p>
+
+    <h2>Exercise 3 using Internal CSS</h2>
+    <div class="divis"></div>
+
+    <!--Exercise 4 Box-->
+    <div id="box4">
+        <h1>This is Title</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus et quos, nemo consectetur voluptas in error nesciunt ipsam doloremque sint animi. Facilis sunt quidem, beatae itaque vitae ab fugit nihil similique ad repudiandae repellendus tenetur expedita omnis perspiciatis eum consectetur dignissimos quos optio debitis necessitatibus. Ab voluptates sed ratione libero.</p>
+    </div>    
+
+<!--
+    <footer>
+        <p>&copy; 2024 Abishek Sathiyan</p>
+    </footer> 
+-->
+
 </body>
+
 </html>
