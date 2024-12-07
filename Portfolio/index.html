@@ -1,42 +1,103 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abishek S - Student Portfolio</title>
+    
+    <!-- External CSS Link -->
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts for styling -->
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-    </head>
-
+</head>
 <body>
-    <div class="section1">
-        <h1 class="section1__name">Abishek Sathiyan</h1>
-        <p class="section1__role">FullStack Web Developer</p>
-        <a class="section1__contact" href="contact.html">Contact</a>
-    </div>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-image">
+                    <img src="Asset/Mine.jpg" alt="Abishek S">
+                </div>
+                <div class="header-text">
+                    <a href="contact.html"><h2>Abishek S</h2></a>
+                    <p>Masters in Computer Applications</p>
+                    <p>Karpagam University</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div>
-        <h2>My Interests</h2>
-        <ul>
-            <li>Programming</li>
-            <li>Reading</li>
-            <li>Running</li>
-        </ul>
-    
-        <h2>My Projects</h2>
-        <ol>
-            <li>
-                Employee Management System
-                <p>I completed the Employee Management System using VB.Net and Microsoft Access Database. Lorem ipsum...</p>
-            </li>
-            <li>
-                White Blood Cells Classification using Python
-                <p>I completed White Blood Cells Classification using Machine Learning. Lorem ipsum...</p>
-            </li>
-        </ol>
-    
-    </div>
+    <main class="container">
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects <i class="fas fa-project-diagram"></i></h2>
+            <div class="project-list">
+                <!-- Example Project -->
+                <div class="card project-item">
+                    <h3>Govern Superintendent System</h3>
+                    <p>The Govern Superintendent System is a robust application developed using VB.NET and Microsoft Access database technology to streamline the management of government administrative tasks.</p>
+                </div>
 
+                <!-- Internship Project -->
+                <div class="card project-item">
+                    <h3>Skillmate.AI Company Product Registration Form and Success Message Form</h3>
+                    <p>During my internship, I developed two key web pages using React.js for a Company Registration Form and Success Message Form.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blogs Section -->
+        <section id="blogs">
+            <h2>Blogs <i class="fas fa-blog"></i></h2>
+            <div class="blog-list">
+                <div class="card blog-item">
+                    <h3>Blog Title</h3>
+                    <p>Summary of the blog...</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education <i class="fas fa-graduation-cap"></i></h2>
+            <div class="education-list">
+                <div class="card education-item">
+                    <h3>Bachelor of Computer Applications</h3>
+                    <p>Caussanel College of Arts & Science, Alagappa University</p>
+                    <p>Graduated: August 2023</p>
+                </div>
+                <div class="card education-item">
+                    <h3>Master of Computer Applications</h3>
+                    <p>Karpagam University</p>
+                    <p>Expected Graduation: 2025</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abishek S - Student Portfolio. All rights reserved.</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/abishek-s-54a237240/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/AbishekSathiyan" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
