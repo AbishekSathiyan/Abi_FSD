@@ -37,20 +37,6 @@ h1 {
     padding: 15px;
 }
 
-/* Links Styling */
-a {
-    text-decoration: none;
-    color: royalblue;
-    font-weight: bold;
-    margin: 5px;
-}
-
-/* Styling for the "Contact" Links */
-a:hover {
-    color: darkblue;
-    transition: color 0.3s ease;
-}
-
 /* Styling for Divs */
 .di {
     background-color: cornflowerblue;
@@ -81,12 +67,34 @@ ol {
     padding-left: 30px;
 }
 
-#box4 {
-    min-height: 100px; /* Ensures the content fits inside the box */
-    padding: 20px; /* Adds space inside the box around the content */
-    text-align: center; /* Centers the content */
-    background-color: #f4f4f4; /* Optional: adds a background color */
-    border: 10px solid #ddd; /* Optional: adds a border */
+/* #box4 h1 {
+    text-align: left;
+    display: block;
+    padding: 10px;
+    margin-top: 50px;
+} */
+
+#disp{
+    text-decoration: line-through;
+    padding-top: 4px;
+    display: inline;
+    text-align: left;
+}
+/*Three Boxes for Learning Display Property*/
+.b1{
+    border-radius: 25px;
+}
+.b1{
+    color: red;
+    display: inline;
+    height: 1px;
+    width: 10px;
+}
+.b1{
+    color: red;
+    display: inline;
+    height: 1px;
+    width: 10px;
 }
 
 /* Styling for Footer 
